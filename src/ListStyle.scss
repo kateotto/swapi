@@ -1,0 +1,28 @@
+$bgColor: #f0dbc5;
+$detailColor: #eedb00;
+
+body {
+  background-color: #383838;
+}
+.list-container {
+  position: relative;
+  display: block;
+  margin: 25px 40%;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  width: 300px;
+}
+.name-container {
+  font-size: 18px;
+  color: black;
+  font-weight: 700;
+}
+button {
+  margin-top: 10px;
+  border: none;
+  padding: 10px;
+  background-color: $detailColor;
+  border-radius: 30px;
+  cursor: pointer;
+}
